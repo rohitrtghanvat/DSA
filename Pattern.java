@@ -112,12 +112,11 @@
 
 // ----------------------------------------------------------
 // Inverted Half Pyramid (rotate by 180 degree)
-// *
-// **
-// ***
-// ****
+//     *
+//    **
+//   ***
+//  ****
 // *****
-// ******
 
 // import java.util.Scanner;
 
@@ -125,8 +124,7 @@
 // public static void main(String args[]) {
 // Scanner sc = new Scanner(System.in);
 
-// System.out.print("Enter value to print Inverted Half Pyramid (rotate by 180
-// degree) :- ");
+// System.out.print("Enter value to print Inverted Half Pyramid (rotate by 180degree) :- ");
 // int n = sc.nextInt();
 
 // for (int i = 1; i <= n; i++) {
@@ -140,3 +138,7 @@
 // }
 // }
 // }
+
+// ----------------------------------------------------------
+
+
