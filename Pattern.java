@@ -252,3 +252,122 @@
 // }
 // }
 // }
+
+// ----------------------------------------------------------
+// Enter value to print Butterfly Pattern :- 5
+// *        *
+// **      **
+// ***    ***
+// ****  ****
+// **********
+// **********
+// ****  ****
+// ***    ***
+// **      **
+// *        *
+
+// import java.util.Scanner;
+
+// public class Patterns {
+//     public static void main(String args[]) {
+//         Scanner sc = new Scanner(System.in);
+
+//         System.out.print("Enter value to print Butterfly Pattern :- ");
+//         int n = sc.nextInt();
+//         // upper half
+//         for (int i = 1; i <= n; i++) {
+//             // 1st part
+//             for (int j = 1; j <= i; j++) {
+//                 System.out.print("*");
+//             }
+
+//             // spaces
+//             int spaces = 2 * (n - i);
+//             for (int j = 1; j <= spaces; j++) {
+//                 System.out.print(" ");
+//             }
+
+//             for (int j = 1; j <= i; j++) {
+//                 System.out.print("*");
+//             }
+//             System.out.println();
+//         }
+
+//         // lower half
+//         for (int i = n; i >= 1; i--) {
+//             // 1st part
+//             for (int j = 1; j <= i; j++) {
+//                 System.out.print("*");
+//             }
+
+//             // spaces
+//             int spaces = 2 * (n - i);
+//             for (int j = 1; j <= spaces; j++) {
+//                 System.out.print(" ");
+//             }
+
+//             for (int j = 1; j <= i; j++) {
+//                 System.out.print("*");
+//             }
+//             System.out.println();
+//         }
+//     }
+// }
+
+// ----------------------------------------------------------
+// Enter value to print Solid Rhombus :- 5
+//     *****
+//    *****
+//   *****
+//  *****
+// *****
+
+// import java.util.Scanner;
+
+// public class Pattern {
+//     public static void main(String args[]) {
+//         Scanner sc = new Scanner(System.in);
+//         System.out.print("Enter value to print Solid Rhombus :- ");
+//         int n = sc.nextInt();
+
+//         for (int i = 1; i <= n; i++) {
+//             for (int j = 1; j <= n - i; j++) {
+//                 System.out.print(" ");
+//             }
+//             for (int j = 1; j <= n; j++) {
+//                 System.out.print("*");
+//             }
+//             System.out.println();
+//         }
+//     }
+
+// }
+
+// ----------------------------------------------------------
+// Enter value for Number of Pyramid :- 5
+//     1 
+//    2 2
+//   3 3 3
+//  4 4 4 4
+// 5 5 5 5 5
+// import java.util.Scanner;
+
+// public class Pattern {
+//     public static void main(String args[]) {
+//         Scanner sc = new Scanner(System.in);
+
+//         System.out.print("Enter value for Number of Pyramid :- ");
+//         int n = sc.nextInt();
+
+//         for (int i = 1; i <= n; i++) {
+//             for (int j = 1; j <= n - i; j++) {
+//                 System.out.print(" ");
+//             }
+
+//             for (int j = 1; j <= i; j++) {
+//                 System.out.print(i + " ");
+//             }
+//             System.out.println();
+//         }
+//     }
+// }
