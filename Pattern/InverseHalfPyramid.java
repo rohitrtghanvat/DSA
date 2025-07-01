@@ -22,6 +22,7 @@ public class InverseHalfPyramid {
             }
             System.out.println();
         }
+        sc.close();
     }
 
 }
