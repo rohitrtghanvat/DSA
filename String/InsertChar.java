@@ -1,5 +1,5 @@
 package String;
-import java.util.*;
+
 public class InsertChar {
     public static String insertin(String s , char c, int pos){
         StringBuilder res = new StringBuilder();
