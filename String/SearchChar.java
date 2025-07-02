@@ -25,5 +25,7 @@ public class SearchChar {
     }
 }
 
+// Time Comlixty :- Best Case = O(1)
+// Worst Case = O(n)
 // output
-//  index :- 9
+// index :- 9
