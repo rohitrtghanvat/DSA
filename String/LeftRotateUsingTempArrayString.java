@@ -52,7 +52,7 @@ public class LeftRotateUsingTempArrayString {
     }
 
     public static void main(String[] args) {
-        String s = "GeeksforGeeks";
+        String s = "abcdef";
         int d = 2;
 
         System.out.println("🔹 Using shifting: " + rotateByShifting(s, d));
